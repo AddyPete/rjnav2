@@ -92,7 +92,6 @@ def generate_launch_description():
 			parameters=[{'use_sim_time': use_sim_time}],
 			output='screen')
 	#Hello test
-
 	ekf_estimator = Node(
 		package='robot_localization',
 		executable='ekf_node',
